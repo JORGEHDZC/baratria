@@ -129,7 +129,14 @@ body {
     background-color: #00FFD7;
 }
 
-.card {
+#tarjetas {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+    margin-top: 10px;
     height: 400px;
     background-color: #FFFFFF;
     padding: 5px;
@@ -145,9 +152,7 @@ body {
 }
 
 
-body>.container {
-    margin-top: 5%;
-}
+
 
 #producto {
     width: 300px;
@@ -188,7 +193,8 @@ body>.container {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-#contact .card:hover i,#contact .card:hover h4{
-	color: rgb(255, 102, 203);
+#contact .card:hover i,
+#contact .card:hover h4 {
+    color: rgb(255, 102, 203);
 }
 
